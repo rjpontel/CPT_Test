@@ -12,7 +12,6 @@ Children:
   - Name: InteractiveColorGradientPercent
     Type: BaseDataVariableType
     DataType: Float
-    Value: 0.0
   - Name: FocusColor
     Type: BaseDataVariableType
     DataType: Color
@@ -112,15 +111,12 @@ Children:
       - Name: Color
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#00000000"
       - Name: BorderColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#00000000"
       - Name: BorderWidth
         Type: BaseDataVariableType
         DataType: Size
-        Value: 0.0
   - Name: InputBoxStyles
     Type: BaseObjectType
     Children:
@@ -233,6 +229,21 @@ Children:
         Type: BaseDataVariableType
         DataType: Size
         Value: 18.0
+  - Name: RectangleStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: RectangleStyle
+      Children:
+      - Name: BorderThickness
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 1.0
+  - Name: ScreenStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: ScreenStyle
 - Name: DarkStyleSheet
   Id: g=1299156e737b7383ad91dc65013e570c
   Type: ns=3;StyleSheet
@@ -257,7 +268,6 @@ Children:
   - Name: InteractiveColorGradientPercent
     Type: BaseDataVariableType
     DataType: Float
-    Value: 0.0
   - Name: TextColor
     Type: BaseDataVariableType
     DataType: Color
@@ -265,7 +275,6 @@ Children:
   - Name: BorderWidth
     Type: BaseDataVariableType
     DataType: Size
-    Value: 0.0
   - Name: DataInputBackgroundColor
     Type: BaseDataVariableType
     DataType: Color
@@ -381,15 +390,12 @@ Children:
       - Name: Color
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#00000000"
       - Name: BorderColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#00000000"
       - Name: BorderWidth
         Type: BaseDataVariableType
         DataType: Size
-        Value: 0.0
   - Name: InputBoxStyles
     Type: BaseObjectType
     Children:
@@ -489,7 +495,6 @@ Children:
       - Name: BorderColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#00000000"
       - Name: BackgroundColor
         Type: BaseDataVariableType
         DataType: Color
@@ -558,6 +563,21 @@ Children:
         Type: BaseDataVariableType
         DataType: Size
         Value: 18.0
+  - Name: RectangleStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: RectangleStyle
+      Children:
+      - Name: BorderThickness
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 1.0
+  - Name: ScreenStyles
+    Type: BaseObjectType
+    Children:
+    - Name: Default
+      Type: ScreenStyle
 - Name: NativePresentationEngine
   Type: NativePresentationEngine
   ReferenceType: HasOrderedComponent
@@ -581,10 +601,9 @@ Children:
       Type: PropertyType
       DataType: NodeId
       Value: "/Types/ObjectTypes/BaseObjectType/StyleSheet"
-  - Name: EnableVirtualKeyboard
+  - Name: VirtualKeyboard
     Type: BaseDataVariableType
-    DataType: Boolean
-    Value: false
+    DataType: VirtualKeyboardEngineTypeEnum
   - Name: StartingUser
     Type: NodePointer
     DataType: NodeId
@@ -599,7 +618,6 @@ Children:
   - Name: Session
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":0,"Id":0,"Namespace":-1}
     Children:
     - Name: NodeClass
       Type: PropertyType
@@ -611,7 +629,6 @@ Children:
   - Name: Protocol
     Type: BaseDataVariableType
     DataType: Protocol
-    Value: 0
   - Name: IPAddress
     Type: BaseDataVariableType
     DataType: String
@@ -632,7 +649,6 @@ Children:
   - Name: StyleSheet
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":0,"Id":0,"Namespace":-1}
     Children:
     - Name: Kind
       Type: PropertyType
@@ -645,7 +661,6 @@ Children:
   - Name: EnableVirtualKeyboard
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: StartingUser
     Type: NodePointer
     DataType: NodeId
@@ -670,7 +685,6 @@ Children:
         Type: NodePointer
         DataType: NodeId
         AccessLevel: Read
-        Value: {"IdType":0,"Id":0,"Namespace":-1}
         Children:
         - Name: Kind
           Type: PropertyType
@@ -680,17 +694,14 @@ Children:
         Type: BaseVariableType
         DataType: LocaleId
         ReferenceType: HasProperty
-        Value: ""
       - Name: ActualLanguage
         Type: BaseVariableType
         DataType: LocaleId
         ReferenceType: HasProperty
-        Value: ""
       - Name: ActualMeasurementSystem
         Type: BaseVariableType
         DataType: MeasurementSystem
         ReferenceType: HasProperty
-        Value: 0
       - Name: TimeZoneOffset
         Type: BaseVariableType
         DataType: TimeZoneDataType
@@ -711,11 +722,9 @@ Children:
           - Name: DisplayName
             Type: BaseVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Description
             Type: BaseVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         - Name: Mass
           Type: EUInformationType
           DataType: EUInformation
@@ -728,11 +737,9 @@ Children:
           - Name: DisplayName
             Type: BaseVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Description
             Type: BaseVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         - Name: Temperature
           Type: EUInformationType
           DataType: EUInformation
@@ -745,11 +752,9 @@ Children:
           - Name: DisplayName
             Type: BaseVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Description
             Type: BaseVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         - Name: TimeSpan
           Type: EUInformationType
           DataType: EUInformation
@@ -762,11 +767,9 @@ Children:
           - Name: DisplayName
             Type: BaseVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Description
             Type: BaseVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         - Name: Area
           Type: EUInformationType
           DataType: EUInformation
@@ -779,11 +782,9 @@ Children:
           - Name: DisplayName
             Type: BaseVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Description
             Type: BaseVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         - Name: Volume
           Type: EUInformationType
           DataType: EUInformation
@@ -796,11 +797,9 @@ Children:
           - Name: DisplayName
             Type: BaseVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Description
             Type: BaseVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         - Name: ElectricalCurrentIntensity
           Type: EUInformationType
           DataType: EUInformation
@@ -813,11 +812,9 @@ Children:
           - Name: DisplayName
             Type: BaseVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Description
             Type: BaseVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         - Name: Frequency
           Type: EUInformationType
           DataType: EUInformation
@@ -830,11 +827,9 @@ Children:
           - Name: DisplayName
             Type: BaseVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Description
             Type: BaseVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         - Name: Force
           Type: EUInformationType
           DataType: EUInformation
@@ -847,11 +842,9 @@ Children:
           - Name: DisplayName
             Type: BaseVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Description
             Type: BaseVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         - Name: Pressure
           Type: EUInformationType
           DataType: EUInformation
@@ -864,11 +857,9 @@ Children:
           - Name: DisplayName
             Type: BaseVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Description
             Type: BaseVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         - Name: Density
           Type: EUInformationType
           DataType: EUInformation
@@ -881,11 +872,9 @@ Children:
           - Name: DisplayName
             Type: BaseVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Description
             Type: BaseVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         - Name: Speed
           Type: EUInformationType
           DataType: EUInformation
@@ -898,11 +887,9 @@ Children:
           - Name: DisplayName
             Type: BaseVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Description
             Type: BaseVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         - Name: Acceleration
           Type: EUInformationType
           DataType: EUInformation
@@ -915,11 +902,9 @@ Children:
           - Name: DisplayName
             Type: BaseVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Description
             Type: BaseVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         - Name: Power
           Type: EUInformationType
           DataType: EUInformation
@@ -932,11 +917,9 @@ Children:
           - Name: DisplayName
             Type: BaseVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Description
             Type: BaseVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         - Name: Energy
           Type: EUInformationType
           DataType: EUInformation
@@ -949,11 +932,9 @@ Children:
           - Name: DisplayName
             Type: BaseVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Description
             Type: BaseVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         - Name: ElectricPotential
           Type: EUInformationType
           DataType: EUInformation
@@ -966,11 +947,9 @@ Children:
           - Name: DisplayName
             Type: BaseVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Description
             Type: BaseVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         - Name: Torque
           Type: EUInformationType
           DataType: EUInformation
@@ -983,11 +962,9 @@ Children:
           - Name: DisplayName
             Type: BaseVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Description
             Type: BaseVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         - Name: PlaneAngle
           Type: EUInformationType
           DataType: EUInformation
@@ -1000,11 +977,9 @@ Children:
           - Name: DisplayName
             Type: BaseVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Description
             Type: BaseVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         - Name: AngularSpeed
           Type: EUInformationType
           DataType: EUInformation
@@ -1017,11 +992,9 @@ Children:
           - Name: DisplayName
             Type: BaseVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Description
             Type: BaseVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         - Name: AngularAcceleration
           Type: EUInformationType
           DataType: EUInformation
@@ -1034,11 +1007,9 @@ Children:
           - Name: DisplayName
             Type: BaseVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Description
             Type: BaseVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         - Name: VolumetricFlowRate
           Type: EUInformationType
           DataType: EUInformation
@@ -1051,11 +1022,9 @@ Children:
           - Name: DisplayName
             Type: BaseVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Description
             Type: BaseVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         - Name: MassFlowRate
           Type: EUInformationType
           DataType: EUInformation
@@ -1068,11 +1037,9 @@ Children:
           - Name: DisplayName
             Type: BaseVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Description
             Type: BaseVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       - Name: Groups
         Type: BaseObjectType
       - Name: Roles
@@ -1096,22 +1063,40 @@ Children:
         DataType: Boolean
         ReferenceType: HasProperty
         AccessLevel: Read
-        Value: false
       - Name: IsNative
         Type: BaseDataVariableType
         DataType: Boolean
         AccessLevel: Read
-        Value: false
       - Name: IsWeb
         Type: BaseDataVariableType
         DataType: Boolean
         AccessLevel: Read
-        Value: false
       - Name: IpAddress
         Type: BaseDataVariableType
         DataType: String
         AccessLevel: Read
-        Value: ""
+      - Class: Reference
+        Target: ns=1;i=303
+        Direction: Forward
+      - Class: Reference
+        Target: ns=1;i=324
+        Direction: Forward
+      - Name: BearerAccessToken
+        Type: BaseVariableType
+        DataType: String
+        AccessLevel: Read
+      - Name: StyleSheet
+        Type: NodePointer
+        DataType: NodeId
+        Children:
+        - Name: Kind
+          Type: PropertyType
+          DataType: NodeId
+          Value: "/Types/ObjectTypes/BaseObjectType/StyleSheet"
+      - Name: ScaleFactor
+        Type: BaseDataVariableType
+        DataType: Double
+        Value: 1.0
   - Name: MaxNumberOfConnections
     Type: BaseDataVariableType
     DataType: UInt32
@@ -1119,12 +1104,20 @@ Children:
   - Name: Session
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":0,"Id":0,"Namespace":-1}
     Children:
     - Name: NodeClass
       Type: PropertyType
       DataType: NodePointerNodeClass
       Value: 1
+  - Name: VirtualKeyboard
+    Type: BaseDataVariableType
+    DataType: VirtualKeyboardEngineTypeEnum
+  - Name: AllowedLocalSources
+    Type: BaseDataVariableType
+    DataType: String
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: ["*"]
 - Name: MainWindow
   Id: g=e8d8d6b1d3e75e504d47dfc1cca7f9d6
   Supertype: Window
@@ -1277,7 +1270,6 @@ Children:
       Type: NodePointer
       DataType: NodeId
       AccessLevel: Read
-      Value: {"IdType":0,"Id":0,"Namespace":-1}
       Children:
       - Name: Kind
         Type: PropertyType
@@ -1312,11 +1304,9 @@ Children:
       Type: BaseVariableType
       DataType: NavigationPanelTabPositionEnum
       ModellingRule: Optional
-      Value: 0
     - Name: CurrentTabIndex
       Type: BaseDataVariableType
       DataType: Int32
-      Value: 0
     - Class: Reference
       Target: ns=3;i=1181
       Direction: Forward
@@ -1349,12 +1339,10 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: VerticalAlignment
       Type: BaseVariableType
       DataType: VerticalAlignment
       ModellingRule: Optional
-      Value: 0
     - Name: HorizontalAlignment
       Type: BaseVariableType
       DataType: HorizontalAlignment
@@ -1367,3 +1355,4 @@ Children:
       Value: 20.0
 - File: Screens/Screens.yaml
 - File: Templates/Templates.yaml
+- File: Keyboards/Keyboards.yaml

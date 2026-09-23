@@ -67,7 +67,6 @@ Children:
         - Name: ns=2;ObjectPointer
           Type: NodePointer
           DataType: NodeId
-          Value: {"IdType":0,"Id":0,"Namespace":-1}
           Children:
           - Name: Kind
             Type: PropertyType
@@ -94,7 +93,6 @@ Children:
             Type: BaseDataVariableType
             DataType: NodeId
             Description: {"NamespaceIndex":3,"TextId":"ChangePanelNewPanelDescription"}
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
             Children:
             - Name: DynamicLink
               Type: DynamicLink
@@ -111,14 +109,12 @@ Children:
             DataType: NodeId
             Description: {"NamespaceIndex":3,"TextId":"ChangePanelAliasNodeDescription"}
             ValueRank: ScalarOrOneDimension
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
       - Name: MethodContainer3
         Type: BaseObjectType
         Children:
         - Name: ns=2;ObjectPointer
           Type: NodePointer
           DataType: NodeId
-          Value: {"IdType":0,"Id":0,"Namespace":-1}
           Children:
           - Name: Kind
             Type: PropertyType
@@ -145,7 +141,6 @@ Children:
             Type: BaseDataVariableType
             DataType: NodeId
             Description: {"NamespaceIndex":3,"TextId":"ChangePanelNewPanelDescription"}
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
             Children:
             - Name: DynamicLink
               Type: DynamicLink
@@ -162,42 +157,33 @@ Children:
             DataType: NodeId
             Description: {"NamespaceIndex":3,"TextId":"ChangePanelAliasNodeDescription"}
             ValueRank: ScalarOrOneDimension
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
     - Name: EventArguments
       Type: MouseClickEvent
       Children:
       - Name: EventId
         Type: PropertyType
         DataType: ByteString
-        Value: ""
       - Name: EventType
         Type: PropertyType
         DataType: NodeId
-        Value: {"IdType":0,"Id":0,"Namespace":-1}
       - Name: SourceNode
         Type: PropertyType
         DataType: NodeId
-        Value: {"IdType":0,"Id":0,"Namespace":-1}
       - Name: SourceName
         Type: PropertyType
         DataType: String
-        Value: ""
       - Name: Time
         Type: PropertyType
         DataType: UtcTime
-        Value: "1601-01-01T00:00:00.0000000"
       - Name: ReceiveTime
         Type: PropertyType
         DataType: UtcTime
-        Value: "1601-01-01T00:00:00.0000000"
       - Name: Message
         Type: PropertyType
         DataType: LocalizedText
-        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       - Name: Severity
         Type: PropertyType
         DataType: UInt16
-        Value: 0
   - Name: BackgroundColor
     Type: BaseDataVariableType
     DataType: Color
@@ -238,7 +224,7 @@ Children:
               Type: DynamicLink
               DataType: NodePath
               Value: "{PanelLoader_Main}/CurrentPanel@BrowseName"
-      - Name: Pairs
+      - Name: ns=2;Pairs
         Type: BaseObjectType
         ModellingRule: None
         Children:
@@ -264,7 +250,6 @@ Children:
             Type: BaseDataVariableType
             DataType: Boolean
             ModellingRule: None
-            Value: false
           - Name: Value
             Type: BaseDataVariableType
             DataType: Color
@@ -273,12 +258,10 @@ Children:
   - Name: PanelToLoad_Main
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":0,"Id":0,"Namespace":-1}
     Children:
     - Name: Kind
       Type: PropertyType
       DataType: NodeId
-      Value: {"IdType":0,"Id":0,"Namespace":-1}
     - Name: NodeClass
       Type: PropertyType
       DataType: NodePointerNodeClass
@@ -287,12 +270,10 @@ Children:
   - Name: PanelToLoad_Buttons
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":0,"Id":0,"Namespace":-1}
     Children:
     - Name: Kind
       Type: PropertyType
       DataType: NodeId
-      Value: {"IdType":0,"Id":0,"Namespace":-1}
     - Name: NodeClass
       Type: PropertyType
       DataType: NodePointerNodeClass
@@ -334,7 +315,6 @@ Children:
         - Name: ns=2;ObjectPointer
           Type: NodePointer
           DataType: NodeId
-          Value: {"IdType":0,"Id":0,"Namespace":-1}
           Children:
           - Name: Kind
             Type: PropertyType
@@ -361,7 +341,6 @@ Children:
             Type: BaseDataVariableType
             DataType: NodeId
             Description: {"NamespaceIndex":3,"TextId":"ChangePanelNewPanelDescription"}
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
             Children:
             - Name: DynamicLink
               Type: DynamicLink
@@ -378,42 +357,33 @@ Children:
             DataType: NodeId
             Description: {"NamespaceIndex":3,"TextId":"ChangePanelAliasNodeDescription"}
             ValueRank: ScalarOrOneDimension
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
     - Name: EventArguments
       Type: MouseClickEvent
       Children:
       - Name: EventId
         Type: PropertyType
         DataType: ByteString
-        Value: ""
       - Name: EventType
         Type: PropertyType
         DataType: NodeId
-        Value: {"IdType":0,"Id":0,"Namespace":-1}
       - Name: SourceNode
         Type: PropertyType
         DataType: NodeId
-        Value: {"IdType":0,"Id":0,"Namespace":-1}
       - Name: SourceName
         Type: PropertyType
         DataType: String
-        Value: ""
       - Name: Time
         Type: PropertyType
         DataType: UtcTime
-        Value: "1601-01-01T00:00:00.0000000"
       - Name: ReceiveTime
         Type: PropertyType
         DataType: UtcTime
-        Value: "1601-01-01T00:00:00.0000000"
       - Name: Message
         Type: PropertyType
         DataType: LocalizedText
-        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       - Name: Severity
         Type: PropertyType
         DataType: UInt16
-        Value: 0
   - Name: BackgroundColor
     Type: BaseDataVariableType
     DataType: Color
@@ -454,7 +424,7 @@ Children:
               Type: DynamicLink
               DataType: NodePath
               Value: "{PanelLoader_Main}/CurrentPanel@BrowseName"
-      - Name: Pairs
+      - Name: ns=2;Pairs
         Type: BaseObjectType
         ModellingRule: None
         Children:
@@ -480,7 +450,6 @@ Children:
             Type: BaseDataVariableType
             DataType: Boolean
             ModellingRule: None
-            Value: false
           - Name: Value
             Type: BaseDataVariableType
             DataType: Color
@@ -489,12 +458,10 @@ Children:
   - Name: PanelToLoad_Main
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":0,"Id":0,"Namespace":-1}
     Children:
     - Name: Kind
       Type: PropertyType
       DataType: NodeId
-      Value: {"IdType":0,"Id":0,"Namespace":-1}
     - Name: NodeClass
       Type: PropertyType
       DataType: NodePointerNodeClass
@@ -504,7 +471,6 @@ Children:
     Type: BaseVariableType
     DataType: HorizontalAlignment
     ModellingRule: Optional
-    Value: 0
   - Name: LeftMargin
     Type: BaseVariableType
     DataType: Size
@@ -628,4 +594,3 @@ Children:
     Type: BaseDataVariableType
     DataType: FillModeEnum
     ModellingRule: Optional
-    Value: 0

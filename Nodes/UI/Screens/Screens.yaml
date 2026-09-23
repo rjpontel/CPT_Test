@@ -31,12 +31,10 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: Width
         Type: BaseVariableType
         DataType: Size
@@ -91,42 +89,33 @@ Children:
                 DataType: UInt32
                 Description: {"NamespaceIndex":2,"TextId":"SetArrayIndexDescription"}
                 ValueRank: ScalarOrOneDimension
-                Value: 0
         - Name: EventArguments
           Type: MouseClickEvent
           Children:
           - Name: EventId
             Type: PropertyType
             DataType: ByteString
-            Value: ""
           - Name: EventType
             Type: PropertyType
             DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
           - Name: SourceNode
             Type: PropertyType
             DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
           - Name: SourceName
             Type: PropertyType
             DataType: String
-            Value: ""
           - Name: Time
             Type: PropertyType
             DataType: UtcTime
-            Value: "1601-01-01T00:00:00.0000000"
           - Name: ReceiveTime
             Type: PropertyType
             DataType: UtcTime
-            Value: "1601-01-01T00:00:00.0000000"
           - Name: Message
             Type: PropertyType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Severity
             Type: PropertyType
             DataType: UInt16
-            Value: 0
     - Name: SetDark
       Type: Button
       Children:
@@ -199,47 +188,37 @@ Children:
                 DataType: UInt32
                 Description: {"NamespaceIndex":2,"TextId":"SetArrayIndexDescription"}
                 ValueRank: ScalarOrOneDimension
-                Value: 0
         - Name: EventArguments
           Type: MouseClickEvent
           Children:
           - Name: EventId
             Type: PropertyType
             DataType: ByteString
-            Value: ""
           - Name: EventType
             Type: PropertyType
             DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
           - Name: SourceNode
             Type: PropertyType
             DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
           - Name: SourceName
             Type: PropertyType
             DataType: String
-            Value: ""
           - Name: Time
             Type: PropertyType
             DataType: UtcTime
-            Value: "1601-01-01T00:00:00.0000000"
           - Name: ReceiveTime
             Type: PropertyType
             DataType: UtcTime
-            Value: "1601-01-01T00:00:00.0000000"
           - Name: Message
             Type: PropertyType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Severity
             Type: PropertyType
             DataType: UInt16
-            Value: 0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: HorizontalAlignment
       Type: BaseVariableType
       DataType: HorizontalAlignment
@@ -268,11 +247,6 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 50.0
-    - Name: BorderThickness
-      Type: BaseDataVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 1.0
     - Name: HorizontalAlignment
       Type: BaseVariableType
       DataType: HorizontalAlignment
@@ -366,7 +340,6 @@ Children:
       Type: NodePointer
       DataType: NodeId
       AccessLevel: Read
-      Value: {"IdType":0,"Id":0,"Namespace":-1}
       Children:
       - Name: Kind
         Type: PropertyType
@@ -386,12 +359,10 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: HorizontalAlignment
       Type: BaseVariableType
       DataType: HorizontalAlignment
@@ -410,7 +381,6 @@ Children:
     - Name: CurrentTabIndex
       Type: BaseDataVariableType
       DataType: Int32
-      Value: 0
     - Class: Reference
       Target: ns=3;i=1181
       Direction: Forward
@@ -455,11 +425,6 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 50.0
-    - Name: BorderThickness
-      Type: BaseDataVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 1.0
     - Name: HorizontalAlignment
       Type: BaseVariableType
       DataType: HorizontalAlignment
@@ -496,7 +461,6 @@ Children:
       Type: NodePointer
       DataType: NodeId
       AccessLevel: Read
-      Value: {"IdType":0,"Id":0,"Namespace":-1}
       Children:
       - Name: Kind
         Type: PropertyType
@@ -519,12 +483,10 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: VerticalAlignment
       Type: BaseVariableType
       DataType: VerticalAlignment
@@ -546,7 +508,6 @@ Children:
       Type: NodePointer
       DataType: NodeId
       AccessLevel: Read
-      Value: {"IdType":0,"Id":0,"Namespace":-1}
       Children:
       - Name: Kind
         Type: PropertyType
@@ -574,12 +535,10 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: EnterAnimation
       Type: BaseDataVariableType
       DataType: PanelLoaderAnimationTypeEnum
       ModellingRule: Optional
-      Value: 0
     - Name: HorizontalAlignment
       Type: BaseVariableType
       DataType: HorizontalAlignment
@@ -632,7 +591,6 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: HorizontalAlignment
       Type: BaseVariableType
       DataType: HorizontalAlignment
@@ -642,7 +600,6 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: VerticalAlignment
       Type: BaseVariableType
       DataType: VerticalAlignment
@@ -665,7 +622,6 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: VerticalAlignment
         Type: BaseVariableType
         DataType: VerticalAlignment
@@ -675,7 +631,6 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: HorizontalAlignment
         Type: BaseVariableType
         DataType: HorizontalAlignment
@@ -685,7 +640,6 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: MyMotor1
         Type: MyMotor
         Children:
@@ -763,7 +717,6 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: VerticalAlignment
         Type: BaseVariableType
         DataType: VerticalAlignment
@@ -773,7 +726,6 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: HorizontalAlignment
         Type: BaseVariableType
         DataType: HorizontalAlignment
@@ -843,12 +795,24 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
   - Name: Width
     Type: BaseVariableType
     DataType: Size
     ModellingRule: Optional
     Value: 900.0
+  - Name: Label1
+    Type: Label
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"Motors"}
+    - Name: HorizontalAlignment
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 2
 - Name: ResponsiveDesignScaling
   Id: g=8864ff1cc7142a9ea2d816fec5ed633e
   Supertype: MyPanel
@@ -871,7 +835,6 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: HorizontalAlignment
       Type: BaseVariableType
       DataType: HorizontalAlignment
@@ -881,7 +844,6 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: VerticalAlignment
       Type: BaseVariableType
       DataType: VerticalAlignment
@@ -904,7 +866,6 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: VerticalAlignment
         Type: BaseVariableType
         DataType: VerticalAlignment
@@ -914,7 +875,6 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: HorizontalAlignment
         Type: BaseVariableType
         DataType: HorizontalAlignment
@@ -924,7 +884,6 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: MyMotorScaled1
         Type: MyMotorScaled
         Children:
@@ -972,7 +931,6 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: VerticalAlignment
         Type: BaseVariableType
         DataType: VerticalAlignment
@@ -982,7 +940,6 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: HorizontalAlignment
         Type: BaseVariableType
         DataType: HorizontalAlignment
@@ -1022,7 +979,6 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
   - Name: Width
     Type: BaseVariableType
     DataType: Size
@@ -1073,7 +1029,6 @@ Children:
         Type: BaseVariableType
         DataType: VerticalAlignment
         ModellingRule: Optional
-        Value: 0
       - Name: TextHorizontalAlignment
         Type: BaseVariableType
         DataType: TextHorizontalAlignment
@@ -1088,24 +1043,20 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: RightMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
     - Name: CircularGauge1
       Type: CircularGauge
       Children:
       - Name: Value
         Type: BaseDataVariableType
         DataType: Float
-        Value: 0.0
         Children:
         - Name: DynamicLink
           Type: DynamicLink
@@ -1120,7 +1071,6 @@ Children:
       - Name: MinValue
         Type: BaseDataVariableType
         DataType: Float
-        Value: 0.0
       - Name: MaxValue
         Type: BaseDataVariableType
         DataType: Float
@@ -1151,7 +1101,6 @@ Children:
         Type: BaseDataVariableType
         DataType: ValueChangeBehaviour
         ModellingRule: Optional
-        Value: 0
       - Name: HorizontalAlignment
         Type: BaseVariableType
         DataType: HorizontalAlignment
@@ -1166,14 +1115,12 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
     - Name: SpinBox1
       Type: SpinBox
       Children:
       - Name: Value
         Type: BaseDataVariableType
         DataType: Double
-        Value: 0.0
         Children:
         - Name: DynamicLink
           Type: DynamicLink
@@ -1209,12 +1156,10 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: RightMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
     - Name: VerticalAlignment
       Type: BaseVariableType
       DataType: VerticalAlignment
@@ -1224,27 +1169,22 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: BottomMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: HorizontalAlignment
       Type: BaseVariableType
       DataType: HorizontalAlignment
       ModellingRule: Optional
-      Value: 0
     - Name: RightMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
   - Name: PropertyConnectedToPropertyOfSameObject
     Type: Panel
     Children:
@@ -1285,7 +1225,6 @@ Children:
         Type: BaseVariableType
         DataType: VerticalAlignment
         ModellingRule: Optional
-        Value: 0
       - Name: TextHorizontalAlignment
         Type: BaseVariableType
         DataType: TextHorizontalAlignment
@@ -1300,17 +1239,14 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: RightMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
     - Name: CircularGauge1
       Type: CircularGauge
       Children:
@@ -1376,12 +1312,10 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: VerticalAlignment
       Type: BaseVariableType
       DataType: VerticalAlignment
@@ -1391,7 +1325,6 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: HorizontalAlignment
       Type: BaseVariableType
       DataType: HorizontalAlignment
@@ -1437,7 +1370,6 @@ Children:
         Type: BaseVariableType
         DataType: VerticalAlignment
         ModellingRule: Optional
-        Value: 0
       - Name: TextHorizontalAlignment
         Type: BaseVariableType
         DataType: TextHorizontalAlignment
@@ -1452,24 +1384,20 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: RightMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
     - Name: CircularGauge1
       Type: CircularGauge
       Children:
       - Name: Value
         Type: BaseDataVariableType
         DataType: Float
-        Value: 0.0
         Children:
         - Name: DynamicLink
           Type: DynamicLink
@@ -1484,7 +1412,6 @@ Children:
       - Name: MinValue
         Type: BaseDataVariableType
         DataType: Float
-        Value: 0.0
       - Name: MaxValue
         Type: BaseDataVariableType
         DataType: Float
@@ -1530,7 +1457,6 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
@@ -1540,18 +1466,15 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
     - Name: LinearGauge1
       Type: LinearGauge
       Children:
       - Name: Value
         Type: BaseDataVariableType
         DataType: Float
-        Value: 0.0
       - Name: MinValue
         Type: BaseDataVariableType
         DataType: Float
-        Value: 0.0
       - Name: MaxValue
         Type: BaseDataVariableType
         DataType: Float
@@ -1592,7 +1515,6 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
     - Name: VerticalAlignment
       Type: BaseVariableType
       DataType: VerticalAlignment
@@ -1607,12 +1529,10 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: BottomMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: HorizontalAlignment
       Type: BaseVariableType
       DataType: HorizontalAlignment
@@ -1720,12 +1640,10 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: RightMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
@@ -1735,14 +1653,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: SpinBox2
       Type: SpinBox
       Children:
       - Name: Value
         Type: BaseDataVariableType
         DataType: Double
-        Value: 0.0
         Children:
         - Name: EngineeringUnitConverter1
           Type: EUConverter
@@ -1768,7 +1684,6 @@ Children:
             DataType: Double
             ReferenceType: HasParameter
             ModellingRule: Optional
-            Value: 0.0
           - Name: RawMax
             Type: BaseDataVariableType
             DataType: Double
@@ -1780,7 +1695,6 @@ Children:
             DataType: Double
             ReferenceType: HasParameter
             ModellingRule: Optional
-            Value: 0.0
           - Name: ScaledMax
             Type: BaseDataVariableType
             DataType: Double
@@ -1925,12 +1839,10 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: RightMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
@@ -1940,14 +1852,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: SpinBox2
       Type: SpinBox
       Children:
       - Name: Value
         Type: BaseDataVariableType
         DataType: Double
-        Value: 0.0
         Children:
         - Name: LinearConverter1
           Type: LinearConverter
@@ -2068,7 +1978,6 @@ Children:
       - Name: Value
         Type: BaseDataVariableType
         DataType: Double
-        Value: 0.0
       - Name: Width
         Type: BaseVariableType
         DataType: Size
@@ -2102,11 +2011,6 @@ Children:
         DataType: Size
         ModellingRule: Optional
         Value: 50.0
-      - Name: BorderThickness
-        Type: BaseDataVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 1.0
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size
@@ -2134,7 +2038,7 @@ Children:
               Type: DynamicLink
               DataType: NodePath
               Value: "../../../../SpinBox1/Value"
-          - Name: Pairs
+          - Name: ns=2;Pairs
             Type: BaseObjectType
             ModellingRule: None
             Children:
@@ -2146,7 +2050,6 @@ Children:
                 Type: BaseDataVariableType
                 DataType: UInt32
                 ModellingRule: None
-                Value: 0
               - Name: Value
                 Type: BaseDataVariableType
                 DataType: Color
@@ -2187,7 +2090,6 @@ Children:
       - Name: Rotation
         Type: BaseVariableType
         DataType: Size
-        Value: 0.0
       - Name: Opacity
         Type: BaseVariableType
         DataType: Float
@@ -2201,7 +2103,6 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: HorizontalAlignment
       Type: BaseVariableType
       DataType: HorizontalAlignment
@@ -2216,19 +2117,16 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: BottomMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: Image1
       Type: Image
       Children:
       - Name: Path
         Type: BaseDataVariableType
         DataType: ResourceUri
-        Value: ""
         Children:
         - Name: KeyValueConverter1
           Type: ValueMapConverter
@@ -2242,7 +2140,7 @@ Children:
               Type: DynamicLink
               DataType: NodePath
               Value: "../../../../SpinBox1/Value"
-          - Name: Pairs
+          - Name: ns=2;Pairs
             Type: BaseObjectType
             ModellingRule: None
             Children:
@@ -2254,7 +2152,6 @@ Children:
                 Type: BaseDataVariableType
                 DataType: UInt32
                 ModellingRule: None
-                Value: 0
               - Name: Value
                 Type: BaseDataVariableType
                 DataType: ResourceUri
@@ -2314,7 +2211,6 @@ Children:
       - Name: Text
         Type: BaseDataVariableType
         DataType: LocalizedText
-        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         Children:
         - Name: KeyValueConverter1
           Type: ValueMapConverter
@@ -2328,7 +2224,7 @@ Children:
               Type: DynamicLink
               DataType: NodePath
               Value: "../../../../SpinBox1/Value"
-          - Name: Pairs
+          - Name: ns=2;Pairs
             Type: BaseObjectType
             ModellingRule: None
             Children:
@@ -2340,7 +2236,6 @@ Children:
                 Type: BaseDataVariableType
                 DataType: UInt32
                 ModellingRule: None
-                Value: 0
               - Name: Value
                 Type: BaseDataVariableType
                 DataType: String
@@ -2464,12 +2359,10 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: RightMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
@@ -2479,14 +2372,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: value_decimal
       Type: TextBox
       Children:
       - Name: Text
         Type: BaseDataVariableType
         DataType: LocalizedText
-        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         Children:
         - Name: DynamicLink
           Type: DynamicLink
@@ -2539,7 +2430,6 @@ Children:
       - Name: Text
         Type: BaseDataVariableType
         DataType: LocalizedText
-        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         Children:
         - Name: StringFormatter1
           Type: StringFormatter
@@ -2637,7 +2527,6 @@ Children:
       - Name: Text
         Type: BaseDataVariableType
         DataType: LocalizedText
-        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         Children:
         - Name: StringFormatter1
           Type: StringFormatter
@@ -2748,7 +2637,6 @@ Children:
       - Name: Value
         Type: BaseDataVariableType
         DataType: Double
-        Value: 0.0
       - Name: Width
         Type: BaseVariableType
         DataType: Size
@@ -2803,12 +2691,10 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 0.0
         - Name: TopMargin
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 0.0
         - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment
@@ -2840,12 +2726,10 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 0.0
         - Name: TopMargin
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 0.0
         - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment
@@ -2859,7 +2743,6 @@ Children:
         - Name: Rotation
           Type: BaseVariableType
           DataType: Size
-          Value: 0.0
         - Name: Rotate
           Type: NumberAnimation
           Children:
@@ -2870,7 +2753,6 @@ Children:
           - Name: Target
             Type: NodePointer
             DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
             Children:
             - Name: Kind
               Type: PropertyType
@@ -2936,12 +2818,10 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: RightMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
@@ -2951,14 +2831,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: SpinBox2
       Type: SpinBox
       Children:
       - Name: Value
         Type: BaseDataVariableType
         DataType: Double
-        Value: 0.0
         Children:
         - Name: DynamicLink
           Type: DynamicLink
@@ -2994,12 +2872,10 @@ Children:
         Type: BaseDataVariableType
         DataType: Boolean
         ModellingRule: Optional
-        Value: false
       - Name: ShowButtons
         Type: BaseDataVariableType
         DataType: Boolean
         ModellingRule: Optional
-        Value: false
       - Name: Format
         Type: BaseDataVariableType
         DataType: String
@@ -3074,11 +2950,6 @@ Children:
         DataType: Size
         ModellingRule: Optional
         Value: 50.0
-      - Name: BorderThickness
-        Type: BaseDataVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 1.0
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size
@@ -3101,7 +2972,6 @@ Children:
       - Name: Rotation
         Type: BaseVariableType
         DataType: Size
-        Value: 0.0
       - Name: Rotate (Number Animation)
         Type: NumberAnimation
         Children:
@@ -3112,7 +2982,6 @@ Children:
         - Name: Target
           Type: NodePointer
           DataType: NodeId
-          Value: {"IdType":0,"Id":0,"Namespace":-1}
           Children:
           - Name: Kind
             Type: PropertyType
@@ -3140,12 +3009,10 @@ Children:
           Type: BaseDataVariableType
           DataType: EasingCurveEnum
           ModellingRule: Optional
-          Value: 0
         - Name: From
           Type: BaseDataVariableType
           DataType: Float
           ModellingRule: Optional
-          Value: 0.0
         - Name: Duration
           Type: BaseDataVariableType
           DataType: Int32
@@ -3161,7 +3028,6 @@ Children:
       - Name: Checked
         Type: BaseDataVariableType
         DataType: Boolean
-        Value: false
       - Name: Width
         Type: BaseVariableType
         DataType: Size
@@ -3219,12 +3085,10 @@ Children:
         Type: BaseVariableType
         DataType: HorizontalAlignment
         ModellingRule: Optional
-        Value: 0
       - Name: RightMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: TextHorizontalAlignment
         Type: BaseVariableType
         DataType: TextHorizontalAlignment
@@ -3239,7 +3103,6 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: HorizontalAlignment
       Type: BaseVariableType
       DataType: HorizontalAlignment
@@ -3254,12 +3117,10 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: BottomMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
   - Name: Fade
     Type: Panel
     Children:
@@ -3267,7 +3128,6 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
@@ -3334,11 +3194,6 @@ Children:
         DataType: Size
         ModellingRule: Optional
         Value: 50.0
-      - Name: BorderThickness
-        Type: BaseDataVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 1.0
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size
@@ -3361,7 +3216,6 @@ Children:
       - Name: Rotation
         Type: BaseVariableType
         DataType: Size
-        Value: 0.0
       - Name: Opacity
         Type: BaseVariableType
         DataType: Float
@@ -3384,11 +3238,9 @@ Children:
           - Name: To
             Type: BaseDataVariableType
             DataType: Float
-            Value: 0.0
           - Name: Target
             Type: NodePointer
             DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
             Children:
             - Name: Kind
               Type: PropertyType
@@ -3422,7 +3274,6 @@ Children:
           - Name: Target
             Type: NodePointer
             DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
             Children:
             - Name: Kind
               Type: PropertyType
@@ -3440,7 +3291,6 @@ Children:
             Type: BaseDataVariableType
             DataType: Float
             ModellingRule: Optional
-            Value: 0.0
           - Name: Duration
             Type: BaseDataVariableType
             DataType: Int32
@@ -3457,7 +3307,6 @@ Children:
       - Name: Checked
         Type: BaseDataVariableType
         DataType: Boolean
-        Value: false
       - Name: Width
         Type: BaseVariableType
         DataType: Size
@@ -3515,12 +3364,10 @@ Children:
         Type: BaseVariableType
         DataType: HorizontalAlignment
         ModellingRule: Optional
-        Value: 0
       - Name: RightMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: TextHorizontalAlignment
         Type: BaseVariableType
         DataType: TextHorizontalAlignment
@@ -3540,12 +3387,10 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: BottomMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
   - Name: Blink
     Type: Panel
     Children:
@@ -3610,11 +3455,6 @@ Children:
         DataType: Size
         ModellingRule: Optional
         Value: 50.0
-      - Name: BorderThickness
-        Type: BaseDataVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 1.0
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size
@@ -3637,7 +3477,6 @@ Children:
       - Name: Rotation
         Type: BaseVariableType
         DataType: Size
-        Value: 0.0
       - Name: Opacity
         Type: BaseVariableType
         DataType: Float
@@ -3645,7 +3484,6 @@ Children:
       - Name: Blink
         Type: BaseDataVariableType
         DataType: Boolean
-        Value: false
         Children:
         - Name: DynamicLink
           Type: DynamicLink
@@ -3657,7 +3495,6 @@ Children:
       - Name: Checked
         Type: BaseDataVariableType
         DataType: Boolean
-        Value: false
       - Name: Width
         Type: BaseVariableType
         DataType: Size
@@ -3715,12 +3552,10 @@ Children:
         Type: BaseVariableType
         DataType: HorizontalAlignment
         ModellingRule: Optional
-        Value: 0
       - Name: RightMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: TextHorizontalAlignment
         Type: BaseVariableType
         DataType: TextHorizontalAlignment
@@ -3745,17 +3580,14 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: RightMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: BottomMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
   - Name: Resize
     Type: Panel
     Children:
@@ -3818,11 +3650,6 @@ Children:
         Type: BaseVariableType
         DataType: Size
         Value: 50.0
-      - Name: BorderThickness
-        Type: BaseDataVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 1.0
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size
@@ -3845,7 +3672,6 @@ Children:
       - Name: Rotation
         Type: BaseVariableType
         DataType: Size
-        Value: 0.0
       - Name: Opacity
         Type: BaseVariableType
         DataType: Float
@@ -3879,7 +3705,6 @@ Children:
             - Name: Target
               Type: NodePointer
               DataType: NodeId
-              Value: {"IdType":0,"Id":0,"Namespace":-1}
               Children:
               - Name: Kind
                 Type: PropertyType
@@ -3913,7 +3738,6 @@ Children:
             - Name: Target
               Type: NodePointer
               DataType: NodeId
-              Value: {"IdType":0,"Id":0,"Namespace":-1}
               Children:
               - Name: Kind
                 Type: PropertyType
@@ -3959,7 +3783,6 @@ Children:
             - Name: Target
               Type: NodePointer
               DataType: NodeId
-              Value: {"IdType":0,"Id":0,"Namespace":-1}
               Children:
               - Name: Kind
                 Type: PropertyType
@@ -3993,7 +3816,6 @@ Children:
             - Name: Target
               Type: NodePointer
               DataType: NodeId
-              Value: {"IdType":0,"Id":0,"Namespace":-1}
               Children:
               - Name: Kind
                 Type: PropertyType
@@ -4023,7 +3845,6 @@ Children:
       - Name: Checked
         Type: BaseDataVariableType
         DataType: Boolean
-        Value: false
       - Name: Width
         Type: BaseVariableType
         DataType: Size
@@ -4081,12 +3902,10 @@ Children:
         Type: BaseVariableType
         DataType: HorizontalAlignment
         ModellingRule: Optional
-        Value: 0
       - Name: RightMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
       - Name: TextHorizontalAlignment
         Type: BaseVariableType
         DataType: TextHorizontalAlignment
@@ -4111,17 +3930,14 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: RightMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: BottomMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
   - Name: AnimationOfBehavior
     Type: Panel
     Children:
@@ -4186,11 +4002,6 @@ Children:
         DataType: Size
         ModellingRule: Optional
         Value: 50.0
-      - Name: BorderThickness
-        Type: BaseDataVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 1.0
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size
@@ -4213,7 +4024,6 @@ Children:
       - Name: Rotation
         Type: BaseVariableType
         DataType: Size
-        Value: 0.0
         Children:
         - Name: DynamicLink
           Type: DynamicLink
@@ -4237,7 +4047,6 @@ Children:
       - Name: Value
         Type: BaseDataVariableType
         DataType: Double
-        Value: 0.0
       - Name: Width
         Type: BaseVariableType
         DataType: Size
@@ -4305,7 +4114,6 @@ Children:
         Type: BaseVariableType
         DataType: HorizontalAlignment
         ModellingRule: Optional
-        Value: 0
       - Name: TextHorizontalAlignment
         Type: BaseVariableType
         DataType: TextHorizontalAlignment
@@ -4325,12 +4133,10 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: RightMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: VerticalAlignment
       Type: BaseVariableType
       DataType: VerticalAlignment
@@ -4340,5 +4146,4 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
 - File: PanelLoader_Panels/PanelLoader_Panels.yaml

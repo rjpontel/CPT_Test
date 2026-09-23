@@ -9,3 +9,16 @@ FTOptix.UI: from 2.0 to 11.0
 No potential breaking changes detected
 
 
+Project C:/Users/labuser/Documents/Rockwell Automation/FactoryTalk Optix/Projects/CPT_Test/Training_UserInterface.optix upgraded on 23-09-2026 14:42:40.419
+
+Upgraded modules:
+FTOptix.UI: from 11.0 to 21.2
+FTOptix.Core: from 3.0 to 5.0
+FTOptix.CoreBase: from 3.1 to 6.1
+FTOptix.HMIProject: from 5.3 to 9.0
+FTOptix.NativeUI: from 2.0 to 3.3
+FTOptix.WebUI: from 1.1 to 2.0
+
+No potential breaking changes detected
+
+
